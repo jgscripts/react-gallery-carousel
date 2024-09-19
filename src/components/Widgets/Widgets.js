@@ -140,11 +140,6 @@ IndexBoard.propTypes = {
   totalIndices: PropTypes.number.isRequired
 };
 
-IndexBoard.defaultProps = {
-  curIndex: 0,
-  totalIndices: 0
-};
-
 export const DotButtons = (props) => {
   const callbacks = props.callbacks;
 
@@ -186,10 +181,6 @@ DotButtons.propTypes = {
   activeIcon: PropTypes.node,
   passiveIcon: PropTypes.node,
   hasShadow: PropTypes.bool.isRequired
-};
-
-DotButtons.defaultProps = {
-  curIndex: 0
 };
 
 // memo is useful here

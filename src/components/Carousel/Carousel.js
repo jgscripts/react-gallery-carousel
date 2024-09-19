@@ -33,7 +33,7 @@ import {
   WIDGET_POSITIONS_WITH_RTL
 } from './constants';
 import ReversedMap from '../../utils/ReversedMap';
-import { propTypes, defaultProps, getSettings } from './props';
+import { propTypes, getSettings } from './props';
 
 const GalleryCarousel = (props, ref) => {
   /* initialize references */
@@ -579,4 +579,3 @@ export const Carousel = forwardRef(GalleryCarousel);
 
 Carousel.displayName = 'Carousel';
 Carousel.propTypes = propTypes;
-Carousel.defaultProps = defaultProps;
